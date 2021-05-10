@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+     <head>
+         <meta charset="UTF=8">
+         <meta  name="viewport"  content="width=device-width">
+        <title>Navtej's Webpage</title>
+        <link rel="shortcut icon" href="../images/Icon_SW150.png">
+        <link rel="stylesheet" href="../style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+    <body>  
+       <header class ="fixed-bar"><h1 class = "page-title" >My Webpage</h1></header>   
+       <nav class="nav">
+         <ul class="navigation">
+           <li><a href="../index.html">Home</a></li>
+           <li>Contact</li>
+         </ul>
+      </nav>
+    <main>
+      <form class="form">
+        
+        <ul>
+           <label for="name">Name:</label>
+           <input class="form-input" type="text" id="name" name="user_name" oninput="checkInput()">
+        </ul>
+         <ul>
+           <label for="mail">E-mail:</label>
+           <input type="email" id="mail" name="user_email" oninput="checkInput()">
+          </ul>
+       <ul>
+           <label for="msg">Message:</label>
+           <textarea id="msg" name="user_message" cols="30" rows="10"  oninput="checkInput()"></textarea>
+          </ul>
+           <button type="submit" class="submit-button" disabled>Submit</buttontype></button>
+        
+       </form>
+
+     </main>
+    </body>
